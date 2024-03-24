@@ -41,3 +41,8 @@ Thumbs.db
 
 .nx/cache
 .angular
+apps/backend/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+apps/backend/obj/Debug/net8.0/Vim.Backend.AssemblyInfo.cs
+apps/backend/obj/Debug/net8.0/Vim.Backend.AssemblyInfoInputs.cache
+apps/backend/obj/Debug/net8.0/Vim.Backend.GeneratedMSBuildEditorConfig.editorconfig
+apps/backend/obj/Debug/net8.0/Vim.Backend.GlobalUsings.g.cs
