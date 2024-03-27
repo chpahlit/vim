@@ -7,21 +7,20 @@
   "tags": [],
   "targets": {
     "build": {
-      "executor": "@nx/webpack:webpack",
+      "executor": "@angular-devkit/build-angular:application",
       "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/apps/vim-frontend",
         "index": "apps/vim-frontend/src/index.html",
         "browser": "apps/vim-frontend/src/main.ts",
-        "polyfills": "zone.js",
+        "polyfills": ["zone.js"],
         "tsConfig": "apps/vim-frontend/tsconfig.app.json",
         "assets": [
           "apps/vim-frontend/src/favicon.ico",
           "apps/vim-frontend/src/assets"
         ],
         "styles": ["apps/vim-frontend/src/styles.css"],
-        "scripts": [],
-        "generatePackageJson": true
+        "scripts": []
       },
       "configurations": {
         "production": {
