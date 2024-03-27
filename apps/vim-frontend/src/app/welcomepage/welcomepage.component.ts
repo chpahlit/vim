@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-welcomepage',
+  selector: 'vim-welcomepage',
   templateUrl: './welcomepage.component.html',
   standalone: true,
   imports: [CommonModule],
